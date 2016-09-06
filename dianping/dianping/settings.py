@@ -66,7 +66,7 @@ SPIDER_MIDDLEWARES = {
 ITEM_PIPELINES = [
     'dianping.pipelines.DianpingPipeline',]
 
-MONGO_URI= "mongodb://mongoadmin:Quchu2088?@ca5.quchu.info/?authSource=admin"
+MONGO_URI= "mongodb://mongoadmin:Quchu2088?@ca5.quchu.me/?authSource=admin"
 MONGO_DATABASE = "dianping"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
