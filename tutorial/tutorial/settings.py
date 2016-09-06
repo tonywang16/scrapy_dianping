@@ -64,7 +64,7 @@ NEWSPIDER_MODULE = 'tutorial.spiders'
 #ITEM_PIPELINES = {
 #    'tutorial.pipelines.SomePipeline': 300,
 #}
-ITEM_PIPELINES = ['tutorial.pipelines.MongoDBPipeline', ]
+ITEM_PIPELINES = {'tutorial.pipelines.MongoDBPipeline':300, }
 
 MONGODB_SERVER = "ca5.quchu.info"
 MONGODB_PORT = 27017
@@ -72,7 +72,7 @@ MONGODB_DB = "toutiao2"
 MONGODB_COLLECTION = "topics"
 MONGODB_USERNAME = "mongoadmin" 
 MONGODB_PASSWORD = "Quchu2088?" 
-MONGO_URI= "mongodb://mongoadmin:Quchu2088?@ca5.quchu.info/?authSource=admin"
+MONGO_URI= "mongodb://mongoadmin:Quchu2088?@ca5.quchu.me/?authSource=admin"
 MONGO_DATABASE = "toutiao2"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
